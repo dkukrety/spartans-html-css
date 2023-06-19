@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div.container h2{
+        background-color: aqua;
+    }
+    div.container ul:last-child{
+        background-color: green;
+    }
+    div.container ul li:first-child{
+        background-color: yellowgreen;
+    }
+    div.container ul li:nth-child(2){
+        background-color: red;
+    }
+    div.container ul li:nth-child(odd){
+        background-color: rebeccapurple;
+    }
+    div.container ul:nth-of-type(2n){
+        background-color: rebeccapurple;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>List 1</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <ul>
+        <li>last Item 1</li>
+        <li>last item 2</li>
+        <li>last Item 3</li>
+      </ul>
+    </ul>
+    <ul>
+        <li>first Item 1</li>
+        <li>first Item 2</li>
+        <li>first item 3</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h2>List 2</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </div>
+</body>
+</html>

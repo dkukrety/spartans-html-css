@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcontainer{
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px;
+            grid-template-columns: 300px 300px 300px 300px;
+        }
+
+        .product1{
+            grid-row: 1/4;
+            grid-column: 1/1;
+            background-color:palegreen ;
+            border: 10px solid purple;
+            text-align: center;
+            padding: auto;
+
+        }
+        .product2{
+            grid-row: 1/4;
+            grid-column: 2/2;
+            background-color: gray;
+            border: 10px solid purple;
+            text-align: center;
+            padding: auto;
+
+        }
+        .product3{
+            grid-row: 1/4;
+            grid-column: 4/4;
+            background-color:yellowgreen;
+            border: 10px solid purple;
+            text-align: center;
+            padding: auto;
+
+        }
+        img{
+            height: 200px;
+            width: 250px;
+            
+        }
+
+
+    </style>
+    <nav>
+        <a>abc</a>
+        <a>abc</a>
+        <a>abc</a>
+    </nav>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="product1">
+            <h1>Product1</h1>
+            <img src="./product1.jpg" alt="no image">
+            <p>Desciption of product1</p>
+            <a href="flipkart.com">Purchase Link</a>
+        </div>
+        <div class="product2">
+            <h1>Product2</h1>
+            <img src="./product2.jpg" alt="no image">
+            <p>Desciption of product2</p>
+            <a href="flipkart.com">Purchase Link</a>
+        </div>
+        <div class="product3">
+            <h1>Product3</h1>
+            <img src="./product3.jpg" alt="no image">
+            <p>Desciption of product3</p>
+            <a href="flipkart.com">Purchase Link</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Different CSS Styles</title>
+  <style>
+    /* Internal CSS */
+    h1 {
+      color: blue;
+    }
+
+    h3 {
+      color: green;
+    }
+
+    .parent-list{
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    /* Style the nested list within the parent list */
+    .parent-list .nested-list {
+      margin-left: 20px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    /* Style the list items within the nested list */
+    .parent-list .nested-list li {
+      color: darkblue;
+    }
+    h1, p, .my-class {
+      color: blue;
+      font-size: 18px;
+      text-align: center;
+    }
+    /* Uncomment the following line to disable the background color */
+    /* body {
+      background-color: lightgray;
+    } */
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h3>Set-1 Excercise done ---> 1,2,3,4,5,6</h3>
+  <!-- Inline CSS -->
+  <h1 style="color: red;">Hello, inline CSS!</h1>
+  <!-- Internal CSS -->
+  <h1>Hello, internal CSS!</h1>
+  <!-- External CSS -->
+  <h2>Hello, external CSS!</h2>
+  <p style="color: red;">Lorem ipsum dolor sit amet consectetur, 
+    adipisicing elit. Ad beatae perferendis rem eius maxime doloribus 
+    quam qui praesentium architecto nesciunt? Nisi, quibusdam excepturi? 
+    Animi ab consequuntur laudantium? Iste, adipisci eius!</p>
+<div>
+
+<p>By utilizing descendant selectors (space-separated selectors), we can target specific 
+    elements within the hierarchy of the HTML structure and apply different styles to them.</p>
+
+    <ul class="parent-list">
+        <li>Parent Item 1</li>
+        <li>Parent Item 2</li>
+          <ul class="nested-list">
+            <li>Nested Item 1</li>
+            <li>Nested Item 2</li>
+            <li>Nested Item 3</li>
+          </ul>
+        </li>
+        <li>Parent Item 3</li>
+    </ul>
+</div>
+<div>
+    <h1>Title</h1>
+  <p>This is a paragraph.</p>
+  <div class="my-class">This is a div with a class.</div>
+</div>
+
+</body>
+</html>
