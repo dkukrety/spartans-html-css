@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid maroon ;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        div.container p:last-child{
+            background-color: red;
+        }
+        div.container p:nth-child(2){
+            background-color: green;
+        }
+
+        div.container p:nth-child(odd){
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>This is box1</h1>
+            <p>this is box1 para1</p>
+            <p>this is box1 para2</p>
+            <p>this is box1 para1</p>
+            <p>this is box1 para2</p>
+
+        </div>
+        <p>this is container para1</p>
+        <p>this is container para2</p>
+        <p>this is container para1</p>
+        <p>this is last child</p>
+
+        <div class="box2">
+            <p>this is box2 para1</p>
+            <p>this is box2 para2</p>
+            <p>this is box2 para1</p>
+            <p>this is box2 para2</p>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container{
+            display: grid;
+            /*grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;*/
+            grid-template-rows: repeat(8, 100px);
+            grid-template-columns: repeat(20, 50px);
+            background-color: antiquewhite;
+        }
+
+        .product1{
+            grid-row: 2/7;
+            grid-column: 2/8;
+            background-color:palegreen ;
+            border: 10px solid purple;
+            text-align: center;
+            padding: auto;
+
+        }
+        img{
+            height: 200px;
+            width: 250px;
+            
+        }
+        .brand{
+            grid-row: 1/1;
+            grid-column: 10/11;
+            border: 1px solid black;
+            text-align: center;
+            align-content: space-around;
+        }
+        .blog{
+            grid-row: 1/1;
+            grid-column: 11/13;
+            border: 1px solid black;
+            text-align: center;
+            align-content: space-around;
+
+        }
+        .blog img{
+            height: 100px;
+            width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="brand">Exceler</div>
+        <div class="blog"><img src="blogging_image.jpg"/></div>
+
+        <div class="product1">
+            <img src="product1.jpg"/>
+            <h6>Fresh and organic Vegitables and fruits</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur quia expedita aliquam exercitationem sint perferendis alias suscipit 
+                repellendus aliquid deserunt et reiciendis quasi, facere quibusdam quas rerum neque quae.</p>
+             <button>Read More</button>   
+        </div>
+    </div>
+</body>
+</html>

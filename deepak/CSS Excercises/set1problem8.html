@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Select elements with the "data-custom" attribute */
+    [data-custom] {
+      color: blue;
+    }
+
+    /* Select elements with the "data-custom" attribute value equal to "value1" */
+    [data-custom="value1"] {
+      background-color: yellow;
+    }
+
+    /* Select elements with the "data-custom" attribute value that starts with "prefix" */
+    [data-custom^="prefix"] {
+      font-weight: bold;
+    }
+
+    /* Select elements with the "data-custom" attribute value that ends with "suffix" */
+    [data-custom$="suffix"] {
+      text-decoration: underline;
+    }
+
+    /* Select elements with the "data-custom" attribute value that contains "substring" */
+    [data-custom*="substring"] {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div data-custom>Element with attribute</div>
+  <div data-custom="value1">Element with attribute value equals to "value1"</div>
+  <div data-custom="prefixValue">Element with attribute value that starts with "prefix"</div>
+  <div data-custom="suffixValue">Element with attribute value that ends with "suffix"</div>
+  <div data-custom="substringValue">Element with attribute value that contains "substring"</div>
+  <div>
+    Attribute selectors in CSS have various use cases, providing flexibility in selecting elements based on their attributes. Some common use cases for attribute selectors include:
+
+Styling specific elements with a certain attribute: Attribute selectors can be used to target and style elements that have specific attributes. This can be useful when you want to apply styles to elements with certain custom attributes or data attributes.
+
+Styling elements based on attribute values: Attribute selectors allow you to style elements based on the values of their attributes. For example, you can select and style elements with specific attribute values or apply different styles to elements based on different attribute values.
+
+Selecting elements with specific attribute patterns: Attribute selectors can be used to select elements that have attribute values matching specific patterns. For instance, you can select elements whose attribute values start with a certain string, end with a specific value, or contain a particular substring.
+
+Creating dynamic or conditional styles: Attribute selectors enable you to create dynamic or conditional styles based on the presence or value of certain attributes. This can be helpful when you want to apply different styles to elements based on different attribute conditions or dynamically style elements based on changes in their attributes.
+
+Enhancing accessibility: Attribute selectors can be used to target and style elements with specific accessibility attributes. This can help in creating accessible user interfaces by applying appropriate styles to elements that have accessibility attributes like aria-* attributes.
+
+Overall, attribute selectors in CSS provide a powerful mechanism to select and style elements based on their attributes, allowing for greater control and customization of styles based on the presence, value, or patterns of attributes in HTML elements.
+  </div>
+</body>
+</html>

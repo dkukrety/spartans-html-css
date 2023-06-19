@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Select all elements */
+    * {
+      color: blue;
+    }
+
+    /* Select all h1 tags */
+    h1 {
+      font-size: 24px;
+    }
+
+    /* Select elements with class "my-class" */
+    .my-class {
+      background-color: yellow;
+    }
+
+    /* Select the element with id "my-id" */
+    #my-id {
+      border: 1px solid black;
+    }
+    #special {
+      border: 10px solid greenyellow;
+    }
+
+    /* Select the first child of a parent element */
+    .parent > :first-child {
+      font-weight: bold;
+      color: lavender;
+    }
+
+    /* Select the sibling element immediately after an h1 */
+    h1 + p {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Select all elements -->
+  <p>This is a paragraph. Set-1 Problem 7</p>
+  
+  <!-- Select all h1 tags -->
+  <h1>Title</h1>
+  
+  <!-- Select elements with class "my-class" -->
+  <div class="my-class">This is a div with class "my-class".</div>
+  
+  <!-- Select the element with id "my-id" -->
+  <p id="my-id">This is a paragraph with id "my-id".</p>
+  
+  <!-- Select the first child of a parent element -->
+  <div class="parent">
+    <span>First Child</span>
+    <span>Second Child</span>
+  </div>
+  
+  <!-- Select the sibling element immediately after an h1 -->
+  <h1>Title</h1>
+  <p>This is a sibling paragraph.</p>
+  <p id="special">In summary, class selectors are used to style multiple elements that share the 
+    same class, while ID selectors are used to select and style a single unique element based on its ID. Classes can be applied to multiple elements, allowing for shared styles, 
+    while IDs should be unique within the document and applied to a single element.</p>
+</body>
+</html>

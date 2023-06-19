@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 200px;
+            width: 300px;
+        }
+
+        .container{
+            display: grid;
+            grid-template-rows: 100px 100px 100px 100px;
+            grid-template-columns: 300px 300px 300px 300px;
+            border: 10px solid yellow;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+        .product1{
+            grid-row: 1/4;
+            grid-column: 1/1;
+        }
+
+        .product2{
+            grid-row: 1/4;
+            grid-column: 2/3;
+        }
+
+        .product3{
+            grid-row: 3/4;
+            grid-column: 4/5;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product1">
+            <h1>product1</h1>
+            <img src="./product1.jpg">
+            <p style="color: red; background-color: antiquewhite;">description of product1</p>
+        </div>
+        <div class="product2">
+            <h1>product1</h1>
+            <img src="./product2.jpg">
+            <p style="color: red; background-color: antiquewhite;">description of product1</p>
+        </div>
+        <div class="product3">
+            <h1>product1</h1>
+            <img src="./product2.jpg">
+            <p style="color: red; background-color: antiquewhite;">description of product1</p>
+        </div>
+    </div>
+</body>
+</html>
