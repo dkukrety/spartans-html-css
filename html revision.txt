@@ -1,0 +1,47 @@
+HTML:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+---------------------------------------------------------
+anchor tag<a>:
+	ATTRIBUTES:USED-rel,href,target,type
+			NOT USED-download,ping
+
+abbreviation tag<abbr>:
+	ATTRIBUTES:USED-title,dfn
+
+address tag<address>:
+	ATTRIBUTES:GLOBAL ATTRIBUTES:https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+
+area tag<area>:
+	ATTRIBUTES:not used-coords,shape
+
+article tag<article>
+aside tag<aside>
+
+audio tag<audio>:
+	ATTRIBUTES:USED-control,autoplay,muted,src
+			NOT USED-crossorigin
+
+base<base>:
+	ATTRIBUTES:href,target:self/blank/top/parent
+
+<bdi>,<bdo>[not used]
+
+blockquote<blockqoute>:not used
+
+body tag<body>:
+	ATTRIBUTES:USED-style
+		NOT USED:onload,onmessage,onoffline,ononline,onpopstate,onredo,onresize,onstorage,onundo,onunload,onafterprint,onbeforeprint,onbeforeunload,
+onblur,onerror,onfocus,onhashchange,onlanguagechange.
+
+head tag<head>:global attributes
+
+canvas,svg,map not used
+
+form tag<form>:
+		ATTRIBUTES:USED-rel,name,value,autocomplete,validate,novalidate,target,action,method
+
+link tag<link>:
+		ATTRIBUTES:stylesheet,rel,href
+				NOt USED:cross origin,used credentials,anonymous,image sizes,image secret,media,integrity
+
+
+
