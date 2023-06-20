@@ -1,0 +1,115 @@
+body {
+    padding: 10px;
+    background-color: rgb(16, 16, 69);
+}
+
+* {
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bets_mode {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.container {
+    border: 1px solid #d7b0b0;
+    height: 100vh;
+}
+
+.container>section {
+    padding: 10px;
+}
+
+.container>header {
+    padding: 10px;
+}
+
+.header_left>div {
+    margin: 5px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.player_health {
+    display: flex;
+}
+
+.player_health>.players_health_details {
+    border: 1px solid grey;
+    width: 14%;
+    margin: 3px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    height: 80px;
+    background-color: #260a67;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    justify-content: start;
+
+  }
+
+  .grid-item img{
+    height: 60%;
+    width: 80%;
+  }
+  
+
+.max_width_40_percent {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.players_health_details>span {
+    margin: 2px;
+
+}
+
+.joining_criteria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.join_game {
+    display: flex;
+    background-color: #260a67;
+    border-radius: 10px;
+    justify-content: space-between;
+    width:40%;
+    margin-left: 20px;
+    align-items: center;
+}
+.winner{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
