@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(2, 31, 21);
+    padding: 10px;
+}
+
+*{
+    color: white;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+width: 250px;
+}
+
+.bets_mode{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container>section{
+    padding: 5px;
+}
+
+.container>header{
+    padding: 5px;
+}
